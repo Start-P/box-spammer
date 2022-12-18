@@ -7,7 +7,7 @@ import threading
 
 welcometxt = """
 
-Bettter Boxfresh Spammer for illusion Premium
+Better Boxfresh Spammer
 open README.md and enjoy :)
 made by start#2434
 
