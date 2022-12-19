@@ -63,7 +63,7 @@ amount = int(input('送信したい回数を整数で入力してください。
 randstr = input('ランダムな文字をメッセージ中に追加しますか？ [yes / no]\n')
 if content == "list" or content == "random":
     try:
-        with open('boxfresh.txt') as f:
+        with open("boxfresh.txt",encoding="utf-8") as f:
             txt = [i for i in f.read().splitlines() if i != None]
     except:
         print("txtファイルが見つかりませんでした。追加後、もう一度お試しください。")
